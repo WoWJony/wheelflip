@@ -1,0 +1,65 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#69b45c"/>
+      <stop offset="1" stop-color="#2c672c"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="0.5" cy="0.22" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0503f"/>
+      <stop offset="1" stop-color="#ad1f2d"/>
+    </linearGradient>
+    <linearGradient id="wheelG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#43434c"/>
+      <stop offset="1" stop-color="#1c1c21"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <clipPath id="bodyClip">
+      <ellipse cx="512" cy="545" rx="200" ry="245"/>
+    </clipPath>
+  </defs>
+
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)"/>
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bgGlow)"/>
+
+  <ellipse cx="512" cy="806" rx="210" ry="30" fill="#000000" opacity="0.22" filter="url(#soft)"/>
+
+  <path d="M474 262 C 452 226 432 202 406 184" stroke="#26262b" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M550 262 C 572 226 592 202 618 184" stroke="#26262b" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <circle cx="400" cy="177" r="20" fill="#26262b"/>
+  <circle cx="624" cy="177" r="20" fill="#26262b"/>
+
+  <path d="M340 452 C 300 434 272 424 250 402" stroke="#26262b" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M318 558 C 280 560 252 566 226 584" stroke="#26262b" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M342 656 C 306 682 284 700 268 728" stroke="#26262b" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M684 452 C 724 434 752 424 774 402" stroke="#26262b" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M706 558 C 744 560 772 566 798 584" stroke="#26262b" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M682 656 C 718 682 740 700 756 728" stroke="#26262b" stroke-width="22" fill="none" stroke-linecap="round"/>
+
+  <ellipse cx="512" cy="330" rx="118" ry="90" fill="#26262b"/>
+  <circle cx="468" cy="274" r="13" fill="#ffffff" opacity="0.92"/>
+  <circle cx="556" cy="274" r="13" fill="#ffffff" opacity="0.92"/>
+
+  <ellipse cx="512" cy="545" rx="200" ry="245" fill="url(#shell)"/>
+
+  <path d="M512 456 L 512 782" stroke="#26262b" stroke-width="10" opacity="0.85"/>
+
+  <circle cx="418" cy="538" r="33" fill="#26262b"/>
+  <circle cx="606" cy="538" r="33" fill="#26262b"/>
+  <circle cx="450" cy="672" r="28" fill="#26262b"/>
+  <circle cx="574" cy="672" r="28" fill="#26262b"/>
+
+  <g clip-path="url(#bodyClip)">
+    <ellipse cx="426" cy="398" rx="112" ry="66" fill="#ffffff" opacity="0.16" transform="rotate(-24 426 398)"/>
+  </g>
+
+  <rect x="479" y="322" width="66" height="136" rx="33" fill="url(#wheelG)" stroke="#101013" stroke-width="4"/>
+  <line x1="494" y1="366" x2="530" y2="366" stroke="#71717d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="494" y1="392" x2="530" y2="392" stroke="#71717d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="494" y1="418" x2="530" y2="418" stroke="#71717d" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,1535 @@
+{
+  "sourceLanguage": "zh-Hans",
+  "strings": {
+    "%@ 的滚轮方向": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scroll direction of %@"
+          }
+        }
+      }
+    },
+    "%@ 的滚轮方向规则": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direction rule of %@"
+          }
+        }
+      }
+    },
+    "%d 分钟前": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d min ago"
+          }
+        }
+      }
+    },
+    "%d 小时前": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d hr ago"
+          }
+        }
+      }
+    },
+    "%d 秒前": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d sec ago"
+          }
+        }
+      }
+    },
+    ";仅影响跟随默认的应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "; only affects apps following the default"
+          }
+        }
+      }
+    },
+    ";仅影响跟随默认的应用,%ld 个应用保留单独设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "; only affects apps following the default, %ld apps keep their own setting"
+          }
+        }
+      }
+    },
+    "WheelFlip 需要辅助功能权限才能修改鼠标滚轮事件,触控板不受影响。沙盒应用不会自动弹出授权对话框,需要手动添加一次。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WheelFlip needs Accessibility permission to modify mouse-wheel events; the trackpad is unaffected. A sandboxed app can’t show the system prompt, so add it manually once."
+          }
+        }
+      }
+    },
+    "WheelFlip：%@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WheelFlip: %@"
+          }
+        }
+      }
+    },
+    "“其他应用”的默认方向只影响没有单独设置的应用;已单独设置的应用不受默认值变化影响。关闭默认方向不会停止服务。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The default direction for “Other Apps” only affects apps without their own setting; customized apps are unaffected when it changes. Turning it off does not stop the service."
+          }
+        }
+      }
+    },
+    "“退出 WheelFlip”会停止滚轮修改,并注销登录自启;下次想使用时需手动打开。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Quit WheelFlip” stops wheel modification and removes launch-at-login; open it manually next time you want it."
+          }
+        }
+      }
+    },
+    "上次尝试:%@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last attempt: %@"
+          }
+        }
+      }
+    },
+    "上次识别到": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previously detected"
+          }
+        }
+      }
+    },
+    "仅影响跟随默认的应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only affects apps following the default"
+          }
+        }
+      }
+    },
+    "位置待确认 · 设置保留": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location unconfirmed · setting kept"
+          }
+        }
+      }
+    },
+    "使用说明": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How It Works"
+          }
+        }
+      }
+    },
+    "使用说明…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How It Works…"
+          }
+        }
+      }
+    },
+    "保持原方向": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep Direction"
+          }
+        }
+      }
+    },
+    "修复设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair Settings"
+          }
+        }
+      }
+    },
+    "修复设置…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair Settings…"
+          }
+        }
+      }
+    },
+    "全部应用 %ld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All Apps %ld"
+          }
+        }
+      }
+    },
+    "共 %ld 个应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%ld apps total"
+          }
+        }
+      }
+    },
+    "关于 WheelFlip": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About WheelFlip"
+          }
+        }
+      }
+    },
+    "其他应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other Apps"
+          }
+        }
+      }
+    },
+    "刚刚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "just now"
+          }
+        }
+      }
+    },
+    "删除全部规则并重置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete and Reset All Rules"
+          }
+        }
+      }
+    },
+    "前往授权…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authorize…"
+          }
+        }
+      }
+    },
+    "单独设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Customized"
+          }
+        }
+      }
+    },
+    "单独设置 %ld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Customized %ld"
+          }
+        }
+      }
+    },
+    "反转": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reverse"
+          }
+        }
+      }
+    },
+    "取消": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "取消手动添加…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo Manual Add…"
+          }
+        }
+      }
+    },
+    "只影响“跟随默认”的应用;单独设置的应用不受影响。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only affects apps set to “Follow Default”; customized apps are unaffected."
+          }
+        }
+      }
+    },
+    "在 Finder 中显示备份": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal Backup in Finder"
+          }
+        }
+      }
+    },
+    "在 Finder 中显示此应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal This App in Finder"
+          }
+        }
+      }
+    },
+    "在 系统设置 → 隐私与安全性 → 辅助功能 中,点「+」添加 WheelFlip。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In System Settings → Privacy & Security → Accessibility, click “+” to add WheelFlip."
+          }
+        }
+      }
+    },
+    "将删除所有按应用规则与默认方向设置,恢复为全新默认。此操作不可撤销。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This deletes all per-app rules and the default direction, restoring fresh defaults. It cannot be undone."
+          }
+        }
+      }
+    },
+    "尚未发现任何应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No apps discovered yet"
+          }
+        }
+      }
+    },
+    "已保存": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved"
+          }
+        }
+      }
+    },
+    "已保存,下一次滚轮操作生效": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved; takes effect on the next scroll"
+          }
+        }
+      }
+    },
+    "已保存,恢复后生效": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved; takes effect after resuming"
+          }
+        }
+      }
+    },
+    "已保存,恢复运行后生效": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved; takes effect once running again"
+          }
+        }
+      }
+    },
+    "已保存,授权并重新打开后生效": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved; takes effect after authorizing and reopening"
+          }
+        }
+      }
+    },
+    "已启用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enabled"
+          }
+        }
+      }
+    },
+    "已暂停": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paused"
+          }
+        }
+      }
+    },
+    "已添加,可设置方向": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Added; set its direction"
+          }
+        }
+      }
+    },
+    "应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App"
+          }
+        }
+      }
+    },
+    "应用规则": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App Rules"
+          }
+        }
+      }
+    },
+    "恢复全部": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume All"
+          }
+        }
+      }
+    },
+    "恢复后执行": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After resuming"
+          }
+        }
+      }
+    },
+    "恢复后：": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After resuming: "
+          }
+        }
+      }
+    },
+    "恢复运行后执行": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Once running"
+          }
+        }
+      }
+    },
+    "恢复运行后：": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Once running again: "
+          }
+        }
+      }
+    },
+    "所有应用规则…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All App Rules…"
+          }
+        }
+      }
+    },
+    "所有应用都跟随默认方向": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All apps follow the default direction"
+          }
+        }
+      }
+    },
+    "所有规则暂不执行；重新打开应用后会恢复。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No rules are applied for now; they resume when the app reopens."
+          }
+        }
+      }
+    },
+    "手动添加…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Manually…"
+          }
+        }
+      }
+    },
+    "手动选择": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manually selected"
+          }
+        }
+      }
+    },
+    "打开它的开关。列表里可能出现多个同名 WheelFlip,用下面的按钮在 Finder 中定位正在运行的这一份。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turn on its switch. Several WheelFlip entries with the same name may appear; use the button below to reveal in Finder the copy that is actually running."
+          }
+        }
+      }
+    },
+    "打开系统设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open System Settings"
+          }
+        }
+      }
+    },
+    "打开系统设置…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open System Settings…"
+          }
+        }
+      }
+    },
+    "按当前规则：": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current rules: "
+          }
+        }
+      }
+    },
+    "按规则执行": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As per rules"
+          }
+        }
+      }
+    },
+    "授权前滚轮方向不会被修改。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scroll direction stays untouched until access is granted."
+          }
+        }
+      }
+    },
+    "授权后执行": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After authorizing"
+          }
+        }
+      }
+    },
+    "授权并重新打开后：": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After authorizing and reopening: "
+          }
+        }
+      }
+    },
+    "搜索应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search apps"
+          }
+        }
+      }
+    },
+    "搜索应用…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search apps…"
+          }
+        }
+      }
+    },
+    "改回跟随默认": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to Follow Default"
+          }
+        }
+      }
+    },
+    "方向规则": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direction Rule"
+          }
+        }
+      }
+    },
+    "无法自动重新打开(%@);请手动退出后重新打开 WheelFlip。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn’t relaunch automatically (%@); quit and reopen WheelFlip manually."
+          }
+        }
+      }
+    },
+    "无法计算": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "N/A"
+          }
+        }
+      }
+    },
+    "无法读取规则": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can’t Read Rules"
+          }
+        }
+      }
+    },
+    "无法读取该应用的标识(损坏或不受支持的包)": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can’t read the app’s identifier (damaged or unsupported bundle)"
+          }
+        }
+      }
+    },
+    "无辅助功能权限": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Accessibility permission"
+          }
+        }
+      }
+    },
+    "暂停全部": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause All"
+          }
+        }
+      }
+    },
+    "暂时无法运行": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporarily Unavailable"
+          }
+        }
+      }
+    },
+    "更多": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More"
+          }
+        }
+      }
+    },
+    "更多操作": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More actions"
+          }
+        }
+      }
+    },
+    "最近一次滚轮操作未识别应用;仍在编辑这个应用。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The last scroll didn’t identify an app; still editing this one."
+          }
+        }
+      }
+    },
+    "最近一次滚轮操作未识别应用。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The last scroll didn’t identify an app."
+          }
+        }
+      }
+    },
+    "最近识别": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recently detected"
+          }
+        }
+      }
+    },
+    "最近识别到": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last detected"
+          }
+        }
+      }
+    },
+    "服务状态": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service Status"
+          }
+        }
+      }
+    },
+    "未找到此应用 · 确认清理前保留设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App not found · kept until cleanup is confirmed"
+          }
+        }
+      }
+    },
+    "未找到此应用 · 设置保留": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App not found · setting kept"
+          }
+        }
+      }
+    },
+    "查看全部应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View All Apps"
+          }
+        }
+      }
+    },
+    "检测到旧版命令行 wheelflip 仍在运行,可能导致滚轮方向被翻转两次,建议先卸载旧版。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The legacy wheelflip CLI is still running and may double-reverse your scroll wheel; uninstall it first."
+          }
+        }
+      }
+    },
+    "正在查找应用…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finding apps…"
+          }
+        }
+      }
+    },
+    "此应用已在列表中,已定位到它": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Already in the list; located it"
+          }
+        }
+      }
+    },
+    "每个应用可以单独设置“跟随默认 / 反转 / 保持原方向”。“设置应用”区域显示当前正在编辑的应用及其来源;点“选择应用…”可以手动挑选任何已安装的应用,不需要先打开或滚动它。滚轮事件归属于实际接收它的窗口所属的应用,即使该应用不在前台。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Each app can be set to “Follow Default / Reverse / Keep Direction”. The “App to Configure” area shows which app you are editing and why it was selected; “Choose App…” lets you pick any installed app without opening or scrolling it first. Scroll events belong to the app whose window actually receives them, even when it isn’t in the foreground."
+          }
+        }
+      }
+    },
+    "没有发现任何应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No apps found"
+          }
+        }
+      }
+    },
+    "没有找到“%@”": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No results for “%@”"
+          }
+        }
+      }
+    },
+    "没有找到手动添加记录": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No manual-add record found"
+          }
+        }
+      }
+    },
+    "添加失败:%@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add failed: %@"
+          }
+        }
+      }
+    },
+    "添加应用…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add App…"
+          }
+        }
+      }
+    },
+    "清空搜索": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Search"
+          }
+        }
+      }
+    },
+    "滚轮方向": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scroll direction"
+          }
+        }
+      }
+    },
+    "登录自动启动待确认:请在 系统设置 → 登录项 里批准": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launch-at-login pending approval: approve it in System Settings → Login Items"
+          }
+        }
+      }
+    },
+    "登录项注册未生效": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Login item registration didn’t take effect"
+          }
+        }
+      }
+    },
+    "移除失败:%@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove failed: %@"
+          }
+        }
+      }
+    },
+    "稍后设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not Now"
+          }
+        }
+      }
+    },
+    "稍后设置,返回规则设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Later; back to rules"
+          }
+        }
+      }
+    },
+    "筛选": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter"
+          }
+        }
+      }
+    },
+    "筛选单独设置或全部应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter customized or all apps"
+          }
+        }
+      }
+    },
+    "系统会缓存权限查询结果,需要重新打开 WheelFlip 才能读到新授权。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The system caches permission results; WheelFlip must be reopened to pick up a new grant."
+          }
+        }
+      }
+    },
+    "规则文件无法读取时,WheelFlip 不会修改任何滚轮事件。如果在文件外部修复了它,可以重新读取;也可以查看备份,或在确认损失后重置。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "While the rules file can’t be read, WheelFlip leaves all scroll events untouched. If you fixed the file outside the app, reload it; or inspect the backup, or reset after confirming the loss."
+          }
+        }
+      }
+    },
+    "规则无法读取,修复设置后才能编辑此应用的方向。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rules can’t be read; repair settings to edit this app’s direction."
+          }
+        }
+      }
+    },
+    "规则无法读取,暂无法计算生效结果。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rules unreadable; can’t compute the effective result."
+          }
+        }
+      }
+    },
+    "触控板与其他设备": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trackpad and Other Devices"
+          }
+        }
+      }
+    },
+    "触控板和 Magic Mouse 的连续滚动不受任何影响,始终按系统设置的方向工作。鼠标滚轮方向“反转”是相对当前系统产生的方向而言。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trackpad and Magic Mouse continuous scrolling is never affected and always follows System Settings. Wheel “Reverse” is relative to the direction the system currently produces."
+          }
+        }
+      }
+    },
+    "触控板放行": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trackpad passthrough"
+          }
+        }
+      }
+    },
+    "设置应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App to Configure"
+          }
+        }
+      }
+    },
+    "请选择一个 .app 应用包": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please choose an .app bundle"
+          }
+        }
+      }
+    },
+    "跟随默认": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Follow Default"
+          }
+        }
+      }
+    },
+    "返回": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back"
+          }
+        }
+      }
+    },
+    "返回规则设置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to rules"
+          }
+        }
+      }
+    },
+    "退出": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitting"
+          }
+        }
+      }
+    },
+    "退出 WheelFlip": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit WheelFlip"
+          }
+        }
+      }
+    },
+    "退出后不再随登录自动启动": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitting also removes launch at login"
+          }
+        }
+      }
+    },
+    "选择一个应用,为它设置滚轮方向;默认方向也可以直接设置。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose an app to set its scroll direction; the default direction can also be set directly."
+          }
+        }
+      }
+    },
+    "选择应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose App"
+          }
+        }
+      }
+    },
+    "选择应用 %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select app %@"
+          }
+        }
+      }
+    },
+    "选择应用…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose App…"
+          }
+        }
+      }
+    },
+    "选择最近识别的应用 %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select recently detected app %@"
+          }
+        }
+      }
+    },
+    "选择要添加的 .app 应用包": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the .app bundle to add"
+          }
+        }
+      }
+    },
+    "通过文件选择器添加应用": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add an app via the file picker"
+          }
+        }
+      }
+    },
+    "部分来源不可见,清单可能不完整(如个人应用目录受限)": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some sources are invisible; the list may be incomplete (e.g. personal Applications folder is restricted)"
+          }
+        }
+      }
+    },
+    "重新打开后仍未检测到权限;请在辅助功能列表里选中正在运行的这一份并打开开关,然后再次重新打开。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Still no permission after reopening; select the copy that is actually running in the Accessibility list, turn on its switch, then reopen again."
+          }
+        }
+      }
+    },
+    "重新打开并检查": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen and Check"
+          }
+        }
+      }
+    },
+    "重新读取": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reload"
+          }
+        }
+      }
+    },
+    "重置会删除所有按应用规则和默认方向,恢复为全新默认(默认方向 = 反转)。此操作不可撤销。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetting deletes all per-app rules and the default direction, restoring fresh defaults (default direction = Reverse). This cannot be undone."
+          }
+        }
+      }
+    },
+    "重置全部规则?": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset all rules?"
+          }
+        }
+      }
+    },
+    "重置全部规则…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset All Rules…"
+          }
+        }
+      }
+    },
+    "重试启动": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retry Start"
+          }
+        }
+      }
+    },
+    "需要辅助功能权限": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accessibility Permission Required"
+          }
+        }
+      }
+    },
+    "顶部显示 WheelFlip 是否在工作。“暂停全部”会临时停止修改滚轮,所有滚动原样通过;“恢复全部”继续执行规则。暂停只到本次运行为止,重新打开应用后会自动恢复。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The top shows whether WheelFlip is active. “Pause All” temporarily stops modifying the wheel — all scrolling passes through unchanged — and “Resume All” resumes the rules. Pausing lasts only for this run; reopening the app restores the service."
+          }
+        }
+      }
+    },
+    "默认方向": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default Direction"
+          }
+        }
+      }
+    },
+    "默认方向(其他应用)": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default direction (other apps)"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

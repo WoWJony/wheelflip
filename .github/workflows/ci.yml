@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Test installer path handling
+        run: python3 -m unittest discover -s test -p 'test_*.py' -v
+      - name: Generate Xcode project
+        run: xcodegen generate --spec app/project.yml
+      - name: Run unit tests
+        run: >-
+          xcodebuild test -project app/WheelFlip.xcodeproj -scheme WheelFlip
+          -destination 'platform=macOS' -derivedDataPath app/build/ci
+          CODE_SIGNING_ALLOWED=NO

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>WheelFlip — Ladybird</title>
+  <desc>A vermilion ladybird whose shell and scroll wheel resemble a computer mouse, on warm porcelain.</desc>
+  <defs>
+    <linearGradient id="porcelain" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#fdfdfb"/>
+      <stop offset="0.52" stop-color="#f4f4f0"/>
+      <stop offset="1" stop-color="#e8e9e4"/>
+    </linearGradient>
+    <linearGradient id="graphite" gradientUnits="userSpaceOnUse" x1="340" y1="260" x2="680" y2="780">
+      <stop offset="0" stop-color="#414542"/>
+      <stop offset="1" stop-color="#292e2b"/>
+    </linearGradient>
+    <linearGradient id="vermilion" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#e57763"/>
+      <stop offset="0.46" stop-color="#d35849"/>
+      <stop offset="1" stop-color="#bb423b"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#d3d6ce" stop-opacity="0.65"/>
+    </linearGradient>
+    <filter id="tile-shadow" x="-15%" y="-15%" width="130%" height="135%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#1e2821" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#porcelain)" filter="url(#tile-shadow)"/>
+  <rect x="101.5" y="101.5" width="821" height="821" rx="184.5" fill="none" stroke="url(#rim)" stroke-width="3"/>
+
+  <g id="ladybird">
+    <g fill="none" stroke="url(#graphite)" stroke-linecap="round">
+      <path d="M474 304 C464 279 449 260 432 244 M550 304 C560 279 575 260 592 244" stroke-width="16"/>
+      <path d="M360 435 C331 432 310 420 296 406 M664 435 C693 432 714 420 728 406" stroke-width="22"/>
+      <path d="M334 540 C311 538 291 543 277 552 M690 540 C713 538 733 543 747 552" stroke-width="22"/>
+      <path d="M356 646 C331 658 313 678 301 698 M668 646 C693 658 711 678 723 698" stroke-width="22"/>
+    </g>
+    <g fill="url(#graphite)">
+      <circle cx="432" cy="244" r="13"/>
+      <circle cx="592" cy="244" r="13"/>
+      <ellipse cx="512" cy="343" rx="100" ry="74"/>
+    </g>
+    <ellipse cx="512" cy="545" rx="188" ry="218" fill="url(#vermilion)"/>
+    <path d="M512 463 V759" fill="none" stroke="#303632" stroke-width="7" stroke-linecap="round"/>
+    <g fill="url(#graphite)">
+      <circle cx="427" cy="525" r="29"/>
+      <circle cx="597" cy="525" r="29"/>
+      <circle cx="451" cy="648" r="25"/>
+      <circle cx="573" cy="648" r="25"/>
+    </g>
+    <rect x="482" y="350" width="60" height="120" rx="30" fill="url(#graphite)" stroke="#282d29" stroke-width="3"/>
+    <!-- wheel-detail:start -->
+    <g fill="#a8b0a9">
+      <rect x="497" y="382" width="30" height="7" rx="3.5"/>
+      <rect x="497" y="406.5" width="30" height="7" rx="3.5"/>
+      <rect x="497" y="431" width="30" height="7" rx="3.5"/>
+    </g>
+    <!-- wheel-detail:end -->
+  </g>
+</svg>
