@@ -16,6 +16,8 @@ xcodebuild test -project WheelFlip.xcodeproj -scheme WheelFlip \
 
 The installer test replaces `launchctl` with a stub and uses temporary paths. XCTest uses a host-isolation guard to avoid starting a second event tap or registering login items.
 
+CI runs XCTest in English and Simplified Chinese. Use `-testLanguage en` or `-testLanguage zh-Hans` with `xcodebuild test` to reproduce either environment. Compare localized UI text using the app's localization keys, not a fixed system language.
+
 Do not overwrite a running app bundle. Use a separate derived-data directory and expect to reauthorize an ad-hoc-signed build after changes.
 
 ## Live scroll tests

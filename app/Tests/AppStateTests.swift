@@ -115,7 +115,7 @@ final class AppStateTests: RuleStoreTestBase {
         XCTAssertEqual(loginItems.registerCallCount, 0)
         let presentation = ServicePresentation.present(state.phase)
         XCTAssertEqual(presentation.primaryAction, .retryStart)
-        XCTAssertEqual(presentation.title, "暂时无法运行")
+        XCTAssertEqual(presentation.title, String(localized: "暂时无法运行"))
     }
 
     func testResumeTapFailureGoesToEngineFailedWithRetryPath() {
@@ -213,11 +213,11 @@ final class AppStateTests: RuleStoreTestBase {
         let (state, _, _, _) = makeState()
         state.setOverride(bundleID: "com.ex.a", mode: .forceOn)
         XCTAssertEqual(state.saveState?.succeeded, true)
-        XCTAssertEqual(state.saveState?.message, "已保存,下一次滚轮操作生效")
+        XCTAssertEqual(state.saveState?.message, String(localized: "已保存,下一次滚轮操作生效"))
 
         state.pauseAll()
         state.setOverride(bundleID: "com.ex.b", mode: .forceOff)
-        XCTAssertEqual(state.saveState?.message, "已保存,恢复后生效")
+        XCTAssertEqual(state.saveState?.message, String(localized: "已保存,恢复后生效"))
     }
 
     func testDefaultDirectionSaveMessageIncludesScopeNote() {
@@ -225,7 +225,8 @@ final class AppStateTests: RuleStoreTestBase {
         state.setOverride(bundleID: "com.ex.a", mode: .forceOn)
         state.setDefaultFlip(false)
         XCTAssertEqual(state.saveState?.message,
-                       "已保存,下一次滚轮操作生效;仅影响跟随默认的应用,1 个应用保留单独设置")
+                       String(localized: "已保存,下一次滚轮操作生效") +
+                       String(format: String(localized: ";仅影响跟随默认的应用,%ld 个应用保留单独设置"), 1))
     }
 
     func testSaveFailurePersistsUntilSameTargetSucceeds() throws {
@@ -286,11 +287,12 @@ final class AppStateTests: RuleStoreTestBase {
         let (state, engine, loginItems, rules) = makeState()
         state.setOverride(bundleID: "com.ex.rhino", mode: .forceOff)
 
-        func expect(_ phase: AppPhase, title: String, action: ServicePresentation.Action, prefix: String) {
+        func expect(_ phase: AppPhase, title: String.LocalizationValue,
+                    action: ServicePresentation.Action, prefix: String.LocalizationValue) {
             let p = ServicePresentation.present(phase)
-            XCTAssertEqual(p.title, title)
+            XCTAssertEqual(p.title, String(localized: title))
             XCTAssertEqual(p.primaryAction, action)
-            XCTAssertEqual(p.resultPrefix, prefix)
+            XCTAssertEqual(p.resultPrefix, String(localized: prefix))
             XCTAssertEqual(p.rulesEditable, true)
         }
 
@@ -367,7 +369,8 @@ final class AppStateTests: RuleStoreTestBase {
         XCTAssertFalse(state.refreshPermission())
         state.notePermissionRecheckStillDenied()
         XCTAssertNotNil(state.permissionNotice)
-        XCTAssertTrue(state.permissionNotice?.contains("仍未检测到权限") ?? false)
+        XCTAssertEqual(state.permissionNotice,
+                       String(localized: "重新打开后仍未检测到权限;请在辅助功能列表里选中正在运行的这一份并打开开关,然后再次重新打开。"))
     }
 
     // MARK: 引擎故障与修复
@@ -378,7 +381,7 @@ final class AppStateTests: RuleStoreTestBase {
         state.noteEngineFailure("滚轮 tap 连续超时已停用")
         XCTAssertEqual(state.phase, .engineFailed(reason: "滚轮 tap 连续超时已停用"))
         XCTAssertEqual(ServicePresentation.present(state.phase).primaryAction, .retryStart)
-        XCTAssertEqual(ServicePresentation.present(state.phase).resultPrefix, "恢复运行后：")
+        XCTAssertEqual(ServicePresentation.present(state.phase).resultPrefix, String(localized: "恢复运行后："))
     }
 
     func testFailedIsTerminalUntilQuitOrRepair() {

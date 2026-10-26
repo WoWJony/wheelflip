@@ -141,12 +141,16 @@ final class AppManagementModelTests: RuleStoreTestBase {
 
         let warp = model.rows.first { $0.bundleID == "com.ex.warp" }!
         let rhino = model.rows.first { $0.bundleID == "com.ex.rhino" }!
-        XCTAssertEqual(model.effectText(for: warp), "反转 · 单独设置")
-        XCTAssertEqual(model.effectText(for: rhino), "保持原方向 · 跟随默认")
+        XCTAssertEqual(model.effectText(for: warp),
+                       "\(String(localized: "反转")) · \(String(localized: "单独设置"))")
+        XCTAssertEqual(model.effectText(for: rhino),
+                       "\(String(localized: "保持原方向")) · \(String(localized: "跟随默认"))")
 
         try appState.setDefaultFlip(true) // 改默认只影响继承项
-        XCTAssertEqual(model.effectText(for: rhino), "反转 · 跟随默认")
-        XCTAssertEqual(model.effectText(for: warp), "反转 · 单独设置")
+        XCTAssertEqual(model.effectText(for: rhino),
+                       "\(String(localized: "反转")) · \(String(localized: "跟随默认"))")
+        XCTAssertEqual(model.effectText(for: warp),
+                       "\(String(localized: "反转")) · \(String(localized: "单独设置"))")
     }
 
     /// §6.1/§5.1:暂停/缺权限/故障下结果列为条件式;规则读取失败不展示猜测默认值。
@@ -155,14 +159,14 @@ final class AppManagementModelTests: RuleStoreTestBase {
         try appState.setOverride(bundleID: "com.ex.warp", mode: .forceOn)
         model.reload(from: snapshot(entries: [entry("com.ex.warp", name: "Warp")]))
 
-        XCTAssertEqual(model.resultColumnTitle, "按规则执行")
+        XCTAssertEqual(model.resultColumnTitle, String(localized: "按规则执行"))
         appState.pauseAll()
-        XCTAssertEqual(model.resultColumnTitle, "恢复后执行")
+        XCTAssertEqual(model.resultColumnTitle, String(localized: "恢复后执行"))
         appState.resumeRules()
-        XCTAssertEqual(model.resultColumnTitle, "按规则执行")
+        XCTAssertEqual(model.resultColumnTitle, String(localized: "按规则执行"))
 
         appState.noteEngineFailure("tap 放弃")
-        XCTAssertEqual(model.resultColumnTitle, "恢复运行后执行")
+        XCTAssertEqual(model.resultColumnTitle, String(localized: "恢复运行后执行"))
         XCTAssertEqual(model.rulesEditable, true, "引擎故障仍可编辑")
     }
 
@@ -171,7 +175,7 @@ final class AppManagementModelTests: RuleStoreTestBase {
         let (model, _, _) = makeModel()
         model.reload(from: snapshot(entries: [entry("com.ex.warp", name: "Warp")]))
         XCTAssertEqual(model.rulesEditable, false, "规则读取失败禁用编辑")
-        XCTAssertEqual(model.effectText(for: model.rows[0]), "无法计算", "不展示猜测的默认方向")
+        XCTAssertEqual(model.effectText(for: model.rows[0]), String(localized: "无法计算"), "不展示猜测的默认方向")
     }
 
     // MARK: 保存反馈绑定(F11/T08)
@@ -280,7 +284,7 @@ final class AppManagementModelTests: RuleStoreTestBase {
 
         let app = try makeAppBundle(named: "Custom", bundleID: "com.ex.custom")
         XCTAssertNil(model.addManualApp(url: app))
-        XCTAssertTrue(model.additionNotice?.contains("已在列表中") ?? false)
+        XCTAssertEqual(model.additionNotice, String(localized: "此应用已在列表中,已定位到它"))
         XCTAssertEqual(appState.store.settings?.overrides.count, 1, "不重复创建规则")
         let matching = model.rows.filter { $0.bundleID == "com.ex.custom" }
         XCTAssertEqual(matching.count, 1, "列表中只有一行")
@@ -342,7 +346,7 @@ final class AppManagementModelTests: RuleStoreTestBase {
         state.setOverride(bundleID: "com.ex.warp", mode: .forceOff) // 无权限也可编辑并落盘
         XCTAssertFalse(state.saveState?.succeeded == false)
         XCTAssertEqual(state.store.settings?.overrides["com.ex.warp"], RuleOverrideEntry(mode: .forceOff))
-        XCTAssertEqual(model.resultColumnTitle, "授权后执行", "条件式表达")
+        XCTAssertEqual(model.resultColumnTitle, String(localized: "授权后执行"), "条件式表达")
     }
 
     /// T11:目录更新不重置搜索与筛选。

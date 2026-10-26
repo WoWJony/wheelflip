@@ -10,8 +10,13 @@ permissions:
 
 jobs:
   test:
+    name: Tests (${{ matrix.language }})
     runs-on: macos-15
     timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [en, zh-Hans]
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -26,4 +31,5 @@ jobs:
         run: >-
           xcodebuild test -project app/WheelFlip.xcodeproj -scheme WheelFlip
           -destination 'platform=macOS' -derivedDataPath app/build/ci
+          -testLanguage ${{ matrix.language }}
           CODE_SIGNING_ALLOWED=NO
