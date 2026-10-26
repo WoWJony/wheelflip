@@ -1,0 +1,43 @@
+WheelFlip — Start here / 安装说明
+macOS 14+ · Apple silicon + Intel
+
+English
+
+1. Drag WheelFlip.app onto Applications. If you cannot install there, use your
+   personal ~/Applications folder. Quit an older copy before replacing it.
+2. Open the INSTALLED copy, then eject this disk. Look for WheelFlip in the menu
+   bar, not the Dock.
+3. This release is ad-hoc signed and is NOT Apple-notarized. If macOS cannot
+   verify it, and you trust the release, follow Apple's app-specific Open Anyway
+   flow in System Settings > Privacy & Security after trying to open it.
+   https://support.apple.com/en-us/102445
+4. In WheelFlip's permission guide, click Open System Settings to open
+   Accessibility, then Show This App in Finder to locate the correct app.
+5. Click + in Accessibility, select that installed copy, and turn its switch on.
+   Complete any password or Touch ID confirmation in the macOS dialog.
+6. Click Reopen and Check in WheelFlip. The panel should say Enabled. Try your
+   mouse wheel and trackpad; keep Natural scrolling on for the intended setup.
+
+Pause keeps your rules and login item. Quit stops the service and removes its
+login item. Updating may require adding the new copy to Accessibility again.
+The source, checksums, and an agent installation prompt are available at:
+https://github.com/WoWJony/wheelflip
+
+简体中文
+
+1. 把 WheelFlip.app 拖到 Applications（应用程序）。没有权限时可放到自己的
+   ~/Applications 文件夹。升级前先退出旧副本。
+2. 打开安装好的副本，然后推出这个磁盘。应用图标在菜单栏，不在 Dock。
+3. 当前版本为临时签名，尚未经过 Apple 公证。首次打开若提示无法验证，确认
+   信任后，在「系统设置 → 隐私与安全性」点击此应用对应的「仍要打开」。
+   Apple 操作说明：https://support.apple.com/en-us/102445
+4. 在 WheelFlip 授权页面点「打开系统设置…」直达辅助功能，再点
+   「在 Finder 中显示此应用」定位正确副本。
+5. 在辅助功能中点「+」，选中刚安装的 WheelFlip.app 并开启开关。
+   如需密码或 Touch ID，直接在 macOS 弹窗中完成。
+6. 回到 WheelFlip 点「重新打开并检查」。面板应显示「已启用」。试试鼠标滚轮
+   和触控板；若希望触控板自然滚动、鼠标传统方向，请保持系统自然滚动开启。
+
+「暂停」保留规则和登录自启；「退出」停止服务并注销登录自启。
+升级后可能需要重新添加辅助功能授权。仓库还提供可复制给 Agent 的安装向导：
+https://github.com/WoWJony/wheelflip/blob/main/README.zh-CN.md

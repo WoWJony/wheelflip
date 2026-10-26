@@ -50,3 +50,19 @@ Other scenarios include `paused`, `permission`, `engine-failed`, `rules-corrupt`
 - Describe what changed and how you tested it in the pull request.
 
 Report security problems using [private vulnerability reporting](https://github.com/WoWJony/wheelflip/security/advisories/new).
+
+## Release packaging
+
+On a Mac with full Xcode and XcodeGen, run `./scripts/package-release.sh HEAD`
+after committing the intended source. The script exports that committed revision
+into a temporary directory, builds both arm64 and x86_64, ad-hoc signs the app,
+checks its signature and architectures, and creates a DMG, ZIP, build information,
+and SHA-256 checksums under `app/dist/v<version>/`. It does not notarize the app or
+publish a release. Existing artifacts are not overwritten; pass a second argument
+to choose a fresh output directory. Build information records the exact source
+commit, so the release tag must point to that commit.
+
+Before uploading, mount the DMG read-only and extract the ZIP into temporary
+folders. Verify both app signatures and confirm the DMG includes its Applications
+shortcut, license, and installation guide. Publish the signing/notarization status
+in the release notes. Keep signing credentials and build output outside Git.

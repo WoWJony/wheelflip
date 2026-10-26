@@ -4,4 +4,4 @@ Please report vulnerabilities through [GitHub private vulnerability reporting](h
 
 This is a small community project without a guaranteed response time. Security fixes target the current `main` branch.
 
-The app requires Accessibility access to modify wheel scrolling. Source builds are ad-hoc signed and are not Apple-notarized downloads. Build from source you trust, and review any changes before granting access.
+The app requires Accessibility access to modify wheel scrolling. Current release downloads and source builds are ad-hoc signed; they do not have a Developer ID signature or Apple notarization. Releases include SHA-256 checksums and build information. Checksums verify file integrity, not Apple approval. Download from this repository's Releases page or build from source you trust, and review changes before granting access.
