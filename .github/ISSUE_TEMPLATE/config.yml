@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Installation guide / 安装指引
+    url: https://github.com/WoWJony/wheelflip#download-and-install
+    about: Downloads, permission setup, and agent-assisted installation / 下载、授权与 Agent 安装
+  - name: Private security report / 私密漏洞反馈
+    url: https://github.com/WoWJony/wheelflip/security/advisories/new
+    about: Report vulnerabilities privately / 安全漏洞请通过私密渠道反馈

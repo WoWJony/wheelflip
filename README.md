@@ -15,8 +15,10 @@ A small, native macOS menu bar utility built with SwiftUI and AppKit. No account
 [![CI](https://github.com/WoWJony/wheelflip/actions/workflows/ci.yml/badge.svg)](https://github.com/WoWJony/wheelflip/actions/workflows/ci.yml)
 
 <p align="center">
-  <img src="docs/assets/panel-en.png" width="380" alt="WheelFlip menu panel showing the scroll direction for TextEdit">
+  <img src="docs/assets/demo-en.gif" width="960" alt="15-second illustrated tour: reverse a mouse wheel, preserve trackpad scrolling, and choose rules per app">
 </p>
+
+15-second illustrated tour using real UI and sample apps. [Watch or download the MP4](https://github.com/WoWJony/wheelflip/releases/download/v1.0.0/wheelflip-demo-en.mp4).
 
 ## What it does
 
@@ -157,5 +159,7 @@ Unit tests use fakes for the engine and login service. Live event tests need Acc
 Bug reports, translations, and focused improvements are welcome. Please include your macOS version, mouse model, and reproduction steps. Read the [contribution guide](CONTRIBUTING.md) before attaching diagnostic logs.
 
 If WheelFlip solves a small annoyance for you, a star helps other Mac users find it.
+
+[Share WheelFlip: videos, cover images, and ready-to-use launch copy](docs/LAUNCH.md).
 
 Made by [Jony Wu](https://github.com/WoWJony). Released under the [MIT license](LICENSE).

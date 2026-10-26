@@ -7,8 +7,10 @@
 [下载安装](https://github.com/WoWJony/wheelflip/releases/latest) · [让 Agent 帮你安装](#让-agent-帮你安装) · [English](README.md) · [MIT 许可证](LICENSE)
 
 <p align="center">
-  <img src="docs/assets/panel-zh.png" width="380" alt="WheelFlip 中文菜单栏面板">
+  <img src="docs/assets/demo-zh.gif" width="960" alt="15 秒功能示意：鼠标滚轮反转、触控板保持原方向、按应用设置规则">
 </p>
+
+15 秒功能示意，使用真实界面和演示应用数据。[观看或下载 MP4](https://github.com/WoWJony/wheelflip/releases/download/v1.0.0/wheelflip-demo-zh.mp4)。
 
 ## 功能
 
@@ -112,5 +114,7 @@ open build/local/Build/Products/Release/WheelFlip.app
 - 重建后若权限失效，请移除旧辅助功能条目、添加新副本并重新打开。
 
 欢迎提交问题、翻译和改进；测试步骤见[贡献指南](CONTRIBUTING.md)。如果这个小工具帮到了你，欢迎点个 Star，让更多人找到它。
+
+想帮忙分享？[演示视频、封面和可直接复制的中英文文案](docs/LAUNCH.md)都准备好了。
 
 作者：[Jony Wu](https://github.com/WoWJony)。使用 [MIT 许可证](LICENSE)。

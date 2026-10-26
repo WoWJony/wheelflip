@@ -1,0 +1,47 @@
+name: Bug report / 问题反馈
+description: Report an installation or scrolling problem / 反馈安装或滚动问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying WheelFlip. Short, reproducible reports help most.
+        感谢试用。简单说明如何复现即可；截图或日志请先遮掉私人应用、账号和文件路径。
+  - type: input
+    id: version
+    attributes:
+      label: WheelFlip version / 应用版本
+      placeholder: e.g. 1.0.0, downloaded DMG / 例如 1.0.0，DMG 安装
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and chip / 系统版本和芯片
+      placeholder: e.g. macOS 15.6, Apple M2 / 例如 macOS 15.6，Apple M2
+    validations:
+      required: true
+  - type: input
+    id: mouse
+    attributes:
+      label: Mouse and driver, if relevant / 鼠标型号和驱动（如适用）
+      description: Mention other scroll utilities if running / 如同时运行其他滚动工具，也请说明
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened? / 遇到了什么问题？
+      description: Describe what you expected and what happened / 说明预期效果和实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it? / 如何复现？
+      description: Include the affected app and its direction rule, or the install step where you got stuck / 写明相关应用和规则，或安装卡在哪一步
+    validations:
+      required: true
+  - type: input
+    id: status
+    attributes:
+      label: Status shown in WheelFlip / 面板显示的状态
+      placeholder: Enabled, Needs Accessibility, or unable to launch / 已启用、需要辅助功能权限，或无法启动
