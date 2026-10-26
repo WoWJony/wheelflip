@@ -66,7 +66,13 @@ codesign --force --sign - \
     --entitlements "$source_dir/app/WheelFlip/WheelFlip.entitlements" \
     --identifier com.jonywu.WheelFlip "$package_app"
 codesign --verify --deep --strict "$package_app"
-xcrun lipo -verify_arch arm64 x86_64 "$package_app/Contents/MacOS/WheelFlip"
+architectures="$(xcrun lipo -archs "$package_app/Contents/MacOS/WheelFlip")"
+for architecture in arm64 x86_64; do
+    case " $architectures " in
+        *" $architecture "*) ;;
+        *) echo "Missing architecture: $architecture" >&2; exit 1 ;;
+    esac
+done
 
 cp "$source_dir/docs/INSTALL.txt" "$payload_dir/Start Here - 安装说明.txt"
 cp "$source_dir/LICENSE" "$payload_dir/LICENSE.txt"
